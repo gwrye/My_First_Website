@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta name="description" content="Welcome to Slade's coaching page.">
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="Profile.html">Coaches</a>
+        <a href="Records.html">Records</a>
+    </div>
+
+    <header>
+        <h1>Welcome to Coach Slade's Personal Coaching</h1>
+    </header>
+
+
+    <section class="coach-bio">
+        <h2>Meet Your Coach</h2>
+        <div class="coach-info">
+            <img src="https://uwgathletics.com/images/2024/8/14/Slade_Smith_2425.jpg?width=300" alt="Coach Gabriel" class="coach-photo">
+            <p><strong>Coach Slade</strong> Coach Slade offers personalized coaching designed to help individuals unlock their full potential. Whether you're seeking to improve your career, health, or mindset, Coach Slade's experience and guidance can help you achieve your goals. With over 10 years of coaching experience, he has successfully supported hundreds of clients in reaching new heights and improving various aspects of their lives.</p>
+        </div>
+    </section>
+    
+    <section class="services">
+        <h2><b>Coaching Services</b></h2>
+        <ul>
+            <li><strong>One-on-One Coaching</strong> – Tailored sessions to help you achieve specific personal or professional goals.</li>
+            <li><strong>Group Coaching</strong> – Collaborative sessions for individuals who want to learn and grow in a group setting.</li>
+            <li><strong>Specialized Programs</strong> – Custom programs crafted for each individual athlete covering everything they need to improve.</li>
+        </ul>
+    </section>
+    
+    <section class="pricing">
+        <h2>Pricing</h2>
+        <p>Affordable coaching packages to help you achieve lasting change.</p>
+        <ul>
+            <li><strong>Single Session:</strong> $150 per 60-minute session</li>
+            <li><strong>5-Session Package:</strong> $700 (Save 10%)</li>
+            <li><strong>10-Session Package:</strong> $1,350 (Save 15%)</li>
+            <li><strong>Monthly Coaching Subscription:</strong> $500/month for weekly 1-hour sessions</li>
+        </ul>
+    </section>
+
+    <section class="booking-form">
+        <h2>Book a Session</h2>
+        <p>Ready to take the first step towards your transformation? Fill out the form below to book your session with Coach Slade.</p>
+        <form action="booking-form-handler.php" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="session-type">Select Session Type</label>
+                <select id="session-type" name="session-type" required>
+                    <option value="one-on-one">One-on-One Coaching</option>
+                    <option value="group">Group Coaching</option>
+                    <option value="specialized">Specialized Program</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Additional Information</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Book My Session</button>
+            </div>
+        </form>
+    </section>
+    
+    <section class="contact">
+        <h2>Contact Coach Slade</h2>
+        <p>Have questions or want to know more? Feel free to get in touch!</p>
+        <p>Email: <a href="gwrye6@gmail.com">gwrye6@gmail.com</a></p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+
+    <footer>
+        <p>gwrye6@gmail.com<br>123-456-7890</p>
+    </footer>
+</body>
+</html>
