@@ -1,0 +1,1 @@
+The goal of my website is to have a place for users to find track coaches that fit their individual needs. Users can look at the different coaches the website has to offer, as well as keep track of their own personal acheivements with the "records" page.
